@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="24.222" viewBox="0 0 22 24.222">
+  <g id="Icon_feather-trash" data-name="Icon feather-trash" transform="translate(-3.5 -2)">
+    <path id="Path_12193" data-name="Path 12193" d="M4.5,9h20" transform="translate(0 -1.692)" fill="none" stroke="#8592ad" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_12194" data-name="Path 12194" d="M23.192,7.444V23a2.232,2.232,0,0,1-2.242,2.222H9.742A2.232,2.232,0,0,1,7.5,23V7.444m3.363,0V5.222A2.232,2.232,0,0,1,13.1,3h4.483a2.232,2.232,0,0,1,2.242,2.222V7.444" transform="translate(-0.846)" fill="none" stroke="#8592ad" stroke-linecap="round" stroke-width="2"/>
+    <path id="Icon_awesome-undo" data-name="Icon awesome-undo" d="M3.407,3.6H.193A.193.193,0,0,1,0,3.407V.193A.193.193,0,0,1,.193,0h.77a.193.193,0,0,1,.193.193V1.446a3.979,3.979,0,1,1,.286,5.611.193.193,0,0,1-.007-.28l.545-.545a.192.192,0,0,1,.263-.008,2.824,2.824,0,1,0-.412-3.78H3.407a.193.193,0,0,1,.193.193v.77a.193.193,0,0,1-.193.193Z" transform="translate(10.454 12.445)" fill="#454f63" stroke="#8592ad" stroke-linecap="round" stroke-width="1"/>
+  </g>
+</svg>

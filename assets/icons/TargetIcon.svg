@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.592" height="30.076" viewBox="0 0 31.592 30.076">
+  <g id="Group_8761" data-name="Group 8761" transform="translate(1 1)">
+    <g id="Icon_feather-target" data-name="Icon feather-target" transform="translate(0 4.925)">
+      <path id="Path_10462" data-name="Path 10462" d="M26.151,14.575A11.575,11.575,0,1,1,14.575,3,11.575,11.575,0,0,1,26.151,14.575Z" transform="translate(-3 -3)" fill="none" stroke="#ff4f67" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_10463" data-name="Path 10463" d="M22.891,15.945A6.945,6.945,0,1,1,15.945,9,6.945,6.945,0,0,1,22.891,15.945Z" transform="translate(-4.37 -4.37)" fill="none" stroke="#ff4f67" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_10464" data-name="Path 10464" d="M19.63,17.315A2.315,2.315,0,1,1,17.315,15,2.315,2.315,0,0,1,19.63,17.315Z" transform="translate(-5.74 -5.74)" fill="none" stroke="#ff4f67" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g id="Group_6942" data-name="Group 6942" transform="translate(13.592)">
+      <line id="Line_162" data-name="Line 162" y1="12" x2="13" transform="translate(0 3)" fill="none" stroke="#ff4f67" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_163" data-name="Line 163" y1="3" transform="translate(9.559 3.425)" fill="none" stroke="#ff4f67" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_166" data-name="Line 166" y1="3" transform="translate(12.559 6.425) rotate(90)" fill="none" stroke="#ff4f67" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_164" data-name="Line 164" y1="3" transform="translate(13)" fill="none" stroke="#ff4f67" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_165" data-name="Line 165" y1="3" transform="translate(16 2.925) rotate(90)" fill="none" stroke="#ff4f67" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

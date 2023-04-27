@@ -1,0 +1,69 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        buildToolsVersion = "30.0.2"
+        minSdkVersion = 21
+        compileSdkVersion = 30
+        targetSdkVersion = 31
+        googlePlayServicesAuthVersion = "16.0.1"
+    }
+    repositories {
+        // jcenter();
+        mavenCentral()
+        google()
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:3.5.4")  // react-native-image-crop-picker requires gradle version 3.5.4
+        classpath 'com.google.gms:google-services:4.1.0'
+        
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+def REACT_NATIVE_VERSION = new File(['node', '--print',"JSON.parse(require('fs').readFileSync(require.resolve('react-native/package.json'), 'utf-8')).version"].execute(null, rootDir).text.trim())
+
+allprojects {
+     configurations.all {
+        resolutionStrategy {
+            // Remove this override in 0.65+, as a proper fix is included in react-native itself.
+            force "com.facebook.react:react-native:" + REACT_NATIVE_VERSION
+        }
+    }
+    repositories {
+        mavenLocal()
+        maven {
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            url("$rootDir/../node_modules/react-native/android")
+        }
+        maven {
+            // Android JSC is installed from npm
+            url("$rootDir/../node_modules/jsc-android/dist")
+        }
+        // jcenter()
+        mavenCentral()
+        google()
+        gradlePluginPortal()
+        maven { url 'https://www.jitpack.io' }
+
+        maven { 
+            // react-native-image-crop-picker requires this
+            url 'https://maven.google.com' 
+        }
+        def REPOSITORY_URL = 'https://maven.aliyun.com/nexus/content/groups/public/'
+        all { ArtifactRepository repo ->
+            if(repo instanceof MavenArtifactRepository){
+                def url = repo.url.toString()
+                if (url.startsWith('https://repo1.maven.org/maven2') || url.startsWith('https://jcenter.bintray.com/')) {
+                    project.logger.lifecycle "Repository ${repo.url} replaced by $REPOSITORY_URL."
+                    remove repo
+                }
+            }
+        }
+        maven {
+            url REPOSITORY_URL
+        }
+    }
+}

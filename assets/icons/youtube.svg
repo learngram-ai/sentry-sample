@@ -1,0 +1,7 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <rect id="placeholder" width="40" height="40" rx="12" fill="#ff4f67"/>
+  <g id="Icon_feather-youtube" data-name="Icon feather-youtube" transform="translate(8.797 12.127)">
+    <path id="Path_14569" data-name="Path 14569" d="M23.437,8.465a2.831,2.831,0,0,0-1.976-2.037C19.709,6,12.7,6,12.7,6S5.7,6,3.944,6.468A2.831,2.831,0,0,0,1.968,8.505,29.535,29.535,0,0,0,1.5,13.893a29.535,29.535,0,0,0,.468,5.428,2.831,2.831,0,0,0,1.976,1.955c1.752.468,8.759.468,8.759.468s7.007,0,8.759-.468a2.831,2.831,0,0,0,1.976-2.037,29.535,29.535,0,0,0,.468-5.347,29.534,29.534,0,0,0-.468-5.428Z" transform="translate(-1.499 -6)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_14570" data-name="Path 14570" d="M14.625,19.381l5.856-3.33-5.856-3.33Z" transform="translate(-5.713 -8.157)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
